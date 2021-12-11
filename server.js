@@ -4,6 +4,11 @@ const {v4: uuidv4}=require('uuid');
 const stripe=require('stripe')('sk_test_51K5M9KAYmanOMt5wA5oTL7VlX4oRZC8g21R8cZqTeI1JlTzhH9PgYKefLfVQvK5V5M2SIiCFo1OTCxVBZrsXgK9P00etbARSOo');
 
 const app = express();
+
+const path = require('path');
+
+const port = process.env.PORT || 8080;
+
 app.use(cors());
 
 app.use(express.json());
