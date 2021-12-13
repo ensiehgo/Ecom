@@ -6,6 +6,12 @@ Here, user can -
    * make payment with any option feasible between available ones.
    * have a user friendly layout.
 
+![SCR_1](https://github.com/ensiehgo/Ecom/blob/master/scr1.png)
+![SCR_2](https://github.com/ensiehgo/Ecom/blob/master/scr2.png)
+![SCR_3](https://github.com/ensiehgo/Ecom/blob/master/scr3.png)
+
+The Application is deployed [here](https://ecom2612.herokuapp.com/).
+
 The project overview is to be found [here](https://drive.google.com/file/d/1P-82fO9-0M-1M0kCwxZC39Z0AD1ZIB4g/view?usp=sharing).
 
 # Having installed the dependencies
