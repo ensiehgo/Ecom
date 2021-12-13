@@ -5,16 +5,16 @@ const stripe=require('stripe')('sk_test_51K5M9KAYmanOMt5wA5oTL7VlX4oRZC8g21R8cZq
 
 const app = express();
 
-const path = require('path');
+// const path = require('path');
 
-const port = process.env.PORT || 8080;
+// const port = process.env.PORT || 8080;
 
-if(process.env.NODE_ENV === 'production') {
-    app.use(express.static('build'));
-    app.get('*', (req, res)=>{
-        res.sendFile(path.resolve(__dirname,'build','index.html'))
-    })
-}
+// if(process.env.NODE_ENV === 'production') {
+//    app.use(express.static('build'));
+//    app.get('*', (req, res)=>{
+//        res.sendFile(path.resolve(__dirname,'build','index.html'))
+//    })
+//}
 
 app.use(cors());
 
@@ -60,6 +60,6 @@ app.post('/checkout',async(req, res)=>{
     res.json({status});
 })
 
-app.listen(port,()=>{
-    console.log('your app is running on port no', port);
+app.listen(8080,()=>{
+    console.log('your app is running on port no 8080');
 })
