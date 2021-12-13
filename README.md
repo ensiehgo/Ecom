@@ -6,7 +6,7 @@ Here, user can -
    * make payment with any option feasible between available ones.
    * have a user friendly layout.
 
-The project overview is to be found [here](https://drive.google.com/drive/u/0/my-drive).
+The project overview is to be found [here](https://drive.google.com/file/d/1P-82fO9-0M-1M0kCwxZC39Z0AD1ZIB4g/view?usp=sharing).
 
 # Having installed the dependencies
 To have this App run on your device you just need to run:
