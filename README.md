@@ -5,8 +5,14 @@ Here, user can -
    * add or remove products from cart as desired.
    * make payment with any option feasible between available ones.
    * have a user friendly layout.
+   
+![](https://drive.google.com/file/d/11EVWx6Vzf_iNdrxTXC60-jVHeaqYyEua/view?usp=sharing)
+![](https://drive.google.com/file/d/1NcmM-3M-NAhPpYzC3DZacyBWxm3Pm8si/view?usp=sharing)
+![](https://drive.google.com/file/d/1_kUcdiU9ZCccq36Nq4K8nUvKDrsCRS27/view?usp=sharing)
+
 
 The project overview is to be found [here](https://drive.google.com/file/d/1P-82fO9-0M-1M0kCwxZC39Z0AD1ZIB4g/view?usp=sharing).
+The Application is deployed [here](https://ecom2612.herokuapp.com/).
 
 # Having installed the dependencies
 To have this App run on your device you just need to run:
