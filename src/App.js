@@ -16,6 +16,10 @@ export const App = () => {
         <Route path="/signup" element={<Signup />}/>
         <Route path="/login" element={<Login />}/>
         <Route path="/add-products" element={<AddProducts />}/>
+        <Route path="/login/signup" element={<Signup />}/>
+        <Route path="/signup/login" element={<Login />}/>
+        <Route path="/cart/signup" element={<Signup />}/>
+        <Route path="/cart/signup/login" element={<Login />}/>
         <Route path="/cart" element={<Cart />}/>
         <Route element={<NotFound />}/>
       </Routes>
