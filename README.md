@@ -1,3 +1,22 @@
+Online shopping has been quite popular in contrast with the past.
+The motive of our web application is to provide user with a user friendly layout with utmost convenience. 
+Here, user can -
+   * categorize the products by different categories.
+   * add or remove products from cart as desired.
+   * make payment with any option feasible between available ones.
+   * have a user friendly layout.
+
+The project overview is to be found [here](https://drive.google.com/drive/u/0/my-drive).
+
+# Having installed the dependencies
+To have this App run on your device you just need to run:
+
+### `npm install`
+
+in the directory of the project terminal.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
