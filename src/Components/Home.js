@@ -3,6 +3,7 @@ import { Navbar } from './Navbar'
 import { Products } from './Products'
 import {auth,fs} from '../Config/Config'
 import { IndividualFilteredProduct } from './IndividualFilteredProduct'
+import {useNavigate} from 'react-router-dom'
 
 export const Home = (props) => {
 
@@ -82,6 +83,7 @@ export const Home = (props) => {
     // globl variable
     let Product;
 
+    const navigate = useNavigate();
     // add to cart
     const addToCart = (product)=>{
         if(uid!==null){
@@ -95,7 +97,7 @@ export const Home = (props) => {
 
         }
         else{
-            props.history.push('/login');
+            navigate('/login');
         }
         
     }
